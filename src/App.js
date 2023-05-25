@@ -4,7 +4,7 @@ import './App.css';
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment, incrementByAmount } from "./redux/counter";
-import "./styles.css";
+
 
 export default function App() {
   const { count } = useSelector((state) => state.counter);
@@ -21,4 +21,3 @@ export default function App() {
   );
 }
 
-export default App;
